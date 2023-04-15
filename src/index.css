@@ -1,0 +1,63 @@
+:root button {
+  color: green;
+}
+style {
+  font: 200px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #21222a;
+}
+
+Nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  height: 90px;
+  padding: 30px 25px;
+}
+.nav-logo,
+.nav-title {
+  margin: 0;
+}
+.nav-logo {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+.nav-title {
+  color: #deebf8;
+}
+nav > img {
+  height: 30px;
+  margin-right: 7px;
+}
+main {
+  color: #deebf8;
+  padding: 57px 27px;
+  background-image: url(src/images/react.png);
+  background-repeat: no-repeat;
+  background-size: 22%;
+  background-position-x: right;
+  background-position-y: 50%;
+}
+.main-title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+.main-facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+.main-facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+.main-facts > li::marker {
+  font-size: 1.5rem;
+  color: #61dafb;
+}
